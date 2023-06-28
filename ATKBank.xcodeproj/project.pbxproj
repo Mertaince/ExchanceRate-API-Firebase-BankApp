@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		138290272A44616900C926E1 /* ATKBankApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138290262A44616900C926E1 /* ATKBankApp.swift */; };
+		138290292A44616900C926E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138290282A44616900C926E1 /* ContentView.swift */; };
+		1382902B2A44616D00C926E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1382902A2A44616D00C926E1 /* Assets.xcassets */; };
+		1382902E2A44616D00C926E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1382902D2A44616D00C926E1 /* Preview Assets.xcassets */; };
+		1382903A2A44620200C926E1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138290392A44620200C926E1 /* LoginView.swift */; };
+		1382903D2A4466A100C926E1 /* ViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382903C2A4466A100C926E1 /* ViewModifier.swift */; };
+		1382903F2A44964900C926E1 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382903E2A44964900C926E1 /* CreateView.swift */; };
+		138290412A44A92400C926E1 /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 138290402A44A92400C926E1 /* logo1.png */; };
+		138290472A44E7D300C926E1 /* MoneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138290462A44E7D300C926E1 /* MoneyView.swift */; };
+		138290492A45DF3600C926E1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 138290482A45DF3500C926E1 /* GoogleService-Info.plist */; };
+		1382904C2A45E49500C926E1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1382904B2A45E49500C926E1 /* FirebaseAuth */; };
+		1382904E2A45E49500C926E1 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 1382904D2A45E49500C926E1 /* FirebaseFirestore */; };
+		138290502A45E49500C926E1 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1382904F2A45E49500C926E1 /* FirebaseFirestoreSwift */; };
+		138290522A45E49500C926E1 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 138290512A45E49500C926E1 /* FirebaseStorage */; };
+		138290542A46224500C926E1 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138290532A46224500C926E1 /* SessionManager.swift */; };
+		13BF8D552A4B44DE005C6D98 /* ApiModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BF8D542A4B44DE005C6D98 /* ApiModelView.swift */; };
+		13BF8D572A4B6737005C6D98 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BF8D562A4B6737005C6D98 /* Api.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		138290232A44616900C926E1 /* ATKBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATKBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		138290262A44616900C926E1 /* ATKBankApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATKBankApp.swift; sourceTree = "<group>"; };
+		138290282A44616900C926E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1382902A2A44616D00C926E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1382902D2A44616D00C926E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		138290392A44620200C926E1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		1382903C2A4466A100C926E1 /* ViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifier.swift; sourceTree = "<group>"; };
+		1382903E2A44964900C926E1 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
+		138290402A44A92400C926E1 /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
+		138290462A44E7D300C926E1 /* MoneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyView.swift; sourceTree = "<group>"; };
+		138290482A45DF3500C926E1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		138290532A46224500C926E1 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		13BF8D542A4B44DE005C6D98 /* ApiModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiModelView.swift; sourceTree = "<group>"; };
+		13BF8D562A4B6737005C6D98 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		138290202A44616900C926E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1382904C2A45E49500C926E1 /* FirebaseAuth in Frameworks */,
+				138290522A45E49500C926E1 /* FirebaseStorage in Frameworks */,
+				1382904E2A45E49500C926E1 /* FirebaseFirestore in Frameworks */,
+				138290502A45E49500C926E1 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1343B9E82A47681B00F822C6 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				13BF8D562A4B6737005C6D98 /* Api.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		1382901A2A44616900C926E1 = {
+			isa = PBXGroup;
+			children = (
+				138290252A44616900C926E1 /* ATKBank */,
+				138290242A44616900C926E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		138290242A44616900C926E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				138290232A44616900C926E1 /* ATKBank.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		138290252A44616900C926E1 /* ATKBank */ = {
+			isa = PBXGroup;
+			children = (
+				1343B9E82A47681B00F822C6 /* Api */,
+				138290422A44CF8400C926E1 /* Main */,
+				1382903B2A44668700C926E1 /* Modifier */,
+				138290382A4461C200C926E1 /* Login */,
+				138290372A4461B700C926E1 /* Service */,
+				138290262A44616900C926E1 /* ATKBankApp.swift */,
+				1382902A2A44616D00C926E1 /* Assets.xcassets */,
+				138290402A44A92400C926E1 /* logo1.png */,
+				138290482A45DF3500C926E1 /* GoogleService-Info.plist */,
+				1382902C2A44616D00C926E1 /* Preview Content */,
+			);
+			path = ATKBank;
+			sourceTree = "<group>";
+		};
+		1382902C2A44616D00C926E1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1382902D2A44616D00C926E1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		138290342A4461A500C926E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				138290392A44620200C926E1 /* LoginView.swift */,
+				1382903E2A44964900C926E1 /* CreateView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		138290352A4461AA00C926E1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		138290362A4461B200C926E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		138290372A4461B700C926E1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				138290532A46224500C926E1 /* SessionManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		138290382A4461C200C926E1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				138290362A4461B200C926E1 /* Model */,
+				138290352A4461AA00C926E1 /* ViewModel */,
+				138290342A4461A500C926E1 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1382903B2A44668700C926E1 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				1382903C2A4466A100C926E1 /* ViewModifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		138290422A44CF8400C926E1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				138290452A44CFA400C926E1 /* Model */,
+				138290442A44CF9800C926E1 /* ViewModel */,
+				138290432A44CF8D00C926E1 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		138290432A44CF8D00C926E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				138290282A44616900C926E1 /* ContentView.swift */,
+				138290462A44E7D300C926E1 /* MoneyView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		138290442A44CF9800C926E1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				13BF8D542A4B44DE005C6D98 /* ApiModelView.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		138290452A44CFA400C926E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		138290222A44616900C926E1 /* ATKBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 138290312A44616D00C926E1 /* Build configuration list for PBXNativeTarget "ATKBank" */;
+			buildPhases = (
+				1382901F2A44616900C926E1 /* Sources */,
+				138290202A44616900C926E1 /* Frameworks */,
+				138290212A44616900C926E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATKBank;
+			packageProductDependencies = (
+				1382904B2A45E49500C926E1 /* FirebaseAuth */,
+				1382904D2A45E49500C926E1 /* FirebaseFirestore */,
+				1382904F2A45E49500C926E1 /* FirebaseFirestoreSwift */,
+				138290512A45E49500C926E1 /* FirebaseStorage */,
+			);
+			productName = ATKBank;
+			productReference = 138290232A44616900C926E1 /* ATKBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1382901B2A44616900C926E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					138290222A44616900C926E1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 1382901E2A44616900C926E1 /* Build configuration list for PBXProject "ATKBank" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1382901A2A44616900C926E1;
+			packageReferences = (
+				1382904A2A45E49500C926E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 138290242A44616900C926E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				138290222A44616900C926E1 /* ATKBank */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		138290212A44616900C926E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1382902E2A44616D00C926E1 /* Preview Assets.xcassets in Resources */,
+				138290492A45DF3600C926E1 /* GoogleService-Info.plist in Resources */,
+				138290412A44A92400C926E1 /* logo1.png in Resources */,
+				1382902B2A44616D00C926E1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1382901F2A44616900C926E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13BF8D572A4B6737005C6D98 /* Api.swift in Sources */,
+				1382903A2A44620200C926E1 /* LoginView.swift in Sources */,
+				13BF8D552A4B44DE005C6D98 /* ApiModelView.swift in Sources */,
+				138290292A44616900C926E1 /* ContentView.swift in Sources */,
+				138290272A44616900C926E1 /* ATKBankApp.swift in Sources */,
+				138290472A44E7D300C926E1 /* MoneyView.swift in Sources */,
+				1382903D2A4466A100C926E1 /* ViewModifier.swift in Sources */,
+				1382903F2A44964900C926E1 /* CreateView.swift in Sources */,
+				138290542A46224500C926E1 /* SessionManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1382902F2A44616D00C926E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		138290302A44616D00C926E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		138290322A44616D00C926E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ATKBank/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mert.ATKBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		138290332A44616D00C926E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ATKBank/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mert.ATKBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1382901E2A44616900C926E1 /* Build configuration list for PBXProject "ATKBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1382902F2A44616D00C926E1 /* Debug */,
+				138290302A44616D00C926E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		138290312A44616D00C926E1 /* Build configuration list for PBXNativeTarget "ATKBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				138290322A44616D00C926E1 /* Debug */,
+				138290332A44616D00C926E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1382904A2A45E49500C926E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = exactVersion;
+				version = 10.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1382904B2A45E49500C926E1 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1382904A2A45E49500C926E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		1382904D2A45E49500C926E1 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1382904A2A45E49500C926E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		1382904F2A45E49500C926E1 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1382904A2A45E49500C926E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		138290512A45E49500C926E1 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1382904A2A45E49500C926E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1382901B2A44616900C926E1 /* Project object */;
+}
